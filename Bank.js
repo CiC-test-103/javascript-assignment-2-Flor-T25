@@ -19,8 +19,7 @@ class Account {
     constructor(name, balance = 0) {
         this.name = name; // Account holder's name
         this.balance = balance; // Initial balance (default is 0)
-        this.transactionHistory = []; // Keeps a record of all transactions
-        this.transactionHistory.push({ transactionType: 'Initial Deposit', amount: balance }); // Record the initial deposit transaction.
+        this.transactionHistory = []; // Keeps a record of all 
     }
 
     // Add methods here:
